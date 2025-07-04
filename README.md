@@ -1,4 +1,4 @@
-# PythonPilot
+# AutoPilotPython
 This is an Open Source Python Framework for prototyping ADAS and Autonomous Vehicles. It supports only Lateral Control now.
 
 ![](https://github.com/YanbaruRobotics/PythonPilot_readme_resources/raw/master/gifs/pythonpilot-demo.gif)
@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/36523448/132973406-5c318e51-4704-4c4a-
 
 ```
 $ cd ~/
-$ git clone https://github.com/YanbaruRobotics/PythonPilot
+$ git clone https://github.com/AnasASiddiqui/Auto-Pilot-Python.git
 ```
 
 ### Prerequisites
@@ -43,14 +43,14 @@ $ git clone https://github.com/YanbaruRobotics/PythonPilot
 - tensorflow 1.13.0
 
 ```
-$ cd ~/PythonPilot/
+$ cd ~/AutoPilotPython/
 $ sudo pip3 install -r requirements.txt
 ```
 
 ### Download and uncompress the model
 
 ```
-$ cd ~/PythonPilot/
+$ cd ~/AutoPilotPython/
 $ wget https://www.dropbox.com/s/i7b6eyzucoxs0fq/models.zip   # 800 MB
 $ unzip models.zip
 $ rm -r models.zip
@@ -59,7 +59,7 @@ $ rm -r models.zip
 ### Download and uncompress sample log data
 
 ```
-$ cd ~/PythonPilot/
+$ cd ~/AutoPilotPython/
 $ wget https://www.dropbox.com/s/mo6zo1oo2s46l02/log.zip   # 600 MB
 $ unzip log.zip
 $ rm -r log.zip
@@ -73,7 +73,7 @@ $ rm -r log.zip
 ### Lunch a vehicle server
 
 ```
-$ cd ~/PythonPilot/scripts/
+$ cd ~/AutoPilotPython/scripts/
 $ bash run_vehicle_main.sh
 ```
 
@@ -81,7 +81,7 @@ $ bash run_vehicle_main.sh
 Open a new terminal.
 
 ```
-$ cd ~/PythonPilot/scripts/
+$ cd ~/AutoPilotPython/scripts/
 $ bash run_pilot_main.sh
 ```
 
