@@ -11,9 +11,6 @@ https://user-images.githubusercontent.com/36523448/132973406-5c318e51-4704-4c4a-
    * [Running the demo](#Running-the-demo)
    * [Architecture](#Architecture)
    * [Use Cases](#Use-Cases)
-   * [Acknowledgments](#Acknowledgments)
-   * [License](#License)
-
 
 ## Tested Development Environment
 
