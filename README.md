@@ -100,15 +100,3 @@ Type 'Ctrl' + 'c' in both terminals.
 ## Use Cases
 You can see other example videos at [here](https://www.youtube.com/playlist?list=PLj08U2JjuXcLGNupnirmlB8kN5zT_TTE4).
 
-
-## Acknowledgments
-
-* [The Lane Segmnetation](https://github.com/YanbaruRobotics/PythonPilot/blob/master/pilot/perception/lane_segmentation/dnn_based.py) is built upon [LaneNet](https://github.com/MaybeShewill-CV/lanenet-lane-detection) and [BDD100K data](http://bdd-data.berkeley.edu/).
-* [The Object Detection](https://github.com/YanbaruRobotics/PythonPilot/blob/master/pilot/perception/object_detection/load_graph_nms_v2.py) is built upon [realtime_object_detection](https://github.com/naisy/realtime_object_detection).
-
-
-## License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details
-
-**THIS IS ALPHA QUALITY SOFTWARE FOR RESEARCH AND EDUCATION PURPOSES ONLY. YOU ARE RESPONSIBLE FOR USING WITH LOCAL LAWS AND REGULATIONS. NO WARRANTY EXPRESSED OR IMPLIED.**
